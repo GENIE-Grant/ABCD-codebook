@@ -1,0 +1,33 @@
+---
+title: "Data Dictionary for ALSPAC data: K01MH123914"
+author: "Katherine Schaumberg"
+date: today
+site: book
+format:
+  html:
+    theme: default
+    toc: true
+    number-sections: true
+  pdf:
+    documentclass: book
+    number-sections: true
+bibliography: ["ABCD.bib", "packages.bib"]
+csl: academic-medicine.csl
+link-citations: true
+github-repo: GENIE-Grant/ABCD_codebook
+description: |
+  This book includes general information about the ABCD sample and detailed 
+  information on measures used and scoring procedures for the project -- ‘Integrating developmental and genomic approaches to identify early trajectories of eating and internalizing disorder symptoms’ -- funded by R01MH134039
+---
+
+# Data Dictionary for ABCD data: R01MH134039
+
+
+Data in this dictionary represents only variables obtained and cleaned for this project -- the complete set of raw variables available from the ABCD cohort can be found in the larger ABCD [data dictionary](https://data-dict.abcdstudy.org/). 
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

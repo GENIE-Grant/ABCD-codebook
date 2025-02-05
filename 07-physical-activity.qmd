@@ -1,0 +1,5 @@
+# Physical Activity
+
+## Free-living activity
+
+Objective physical activity data was captured using Actigraph^tm^ accelerometers at 
